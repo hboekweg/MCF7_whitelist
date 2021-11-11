@@ -1,0 +1,4 @@
+č -s /Volumes/LaCie/02_2ng_runs_all_program_mar31/all_tools_ouput/msgfplus/mzMLs  -d ~/MS/uniprot_db/uniprot-taxonomy%3A%22Homo+sapiens+%28Human%29+%5B9606%5D%22-filtered-reviewed%3--.fasta -conf /Volumes/LaCie/02_2ng_runs_all_program_mar31/all_tools_ouput/msgfplus/MSGFPlus_myParams.txt
+
+#to convert mzid to tsv:
+java -Xmx3500M -cp MSGFPlus.jar edu.ucsd.msjava.ui.MzIDToTsv -i /Volumes/LaCie/02_2ng_runs_all_program_mar31/all_tools_ouput/msgfplus/mzids -showDecoy 1
